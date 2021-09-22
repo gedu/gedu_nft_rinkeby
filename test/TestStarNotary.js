@@ -76,7 +76,7 @@ it("lets user2 buy a star and decreases its balance in ether", async () => {
 
 it("can add the star name and star symbol properly", async () => {
   const instance = await StarNotary.deployed();
-  assert.equal(await instance.name(), "Gedu Star Notary");
+  assert.equal(await instance.name(), "Gedu Star");
   assert.equal(await instance.symbol(), "GEDU");
 });
 
